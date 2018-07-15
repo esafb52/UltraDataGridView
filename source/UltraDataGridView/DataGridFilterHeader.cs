@@ -11,6 +11,8 @@ namespace DataGridWithFilter
 {
     public class DataGridFilterHeader : DataGridViewColumnHeaderCell
     {
+		
+		
         ComboBoxState _currentState = ComboBoxState.Normal;
         Point _cellLocation;
         Rectangle _buttonRect;
